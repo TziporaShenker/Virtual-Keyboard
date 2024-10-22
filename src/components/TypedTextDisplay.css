@@ -1,0 +1,11 @@
+/* TypedTextDisplay.css */
+
+.typed-text-display {
+  margin-top: 25px;
+  max-width: 500px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  word-break: break-word;
+  white-space: pre-line;
+}

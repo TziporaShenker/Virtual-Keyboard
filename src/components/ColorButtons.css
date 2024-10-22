@@ -1,0 +1,42 @@
+
+.color-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .color-button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: black; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer;
+  }
+  #red{
+    background-color: red; /* Green background color */
+
+  }#blue{
+    background-color: blue; /* Green background color */
+
+  }#green{
+    background-color: green; /* Green background color */
+
+  }
+  .color-button:hover {
+    background-color:gray; /* Darker green background color on hover */
+  }
+  #Arial{
+    font-family: Arial;
+  }
+  #Monos{
+    font-family: monospace;
+  }
+  #Times{
+    font-family: 'Times New Roman';
+  }
+  #Cursi{
+    font-family: cursive;
+  }

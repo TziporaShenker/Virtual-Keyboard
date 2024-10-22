@@ -1,0 +1,20 @@
+.size-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .size-button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: black; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer;
+  }
+ 
+  .color-button:hover {
+    background-color:gray; /* Darker green background color on hover */
+  }

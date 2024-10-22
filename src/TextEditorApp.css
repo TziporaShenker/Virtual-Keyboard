@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Styling for the section where the typed text is displayed */
+#typed-text {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Styling for the sections with various changes */
+.change-section {
+  margin: 20px 0;
+}

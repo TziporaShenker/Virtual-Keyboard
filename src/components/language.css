@@ -1,0 +1,21 @@
+/* Language.css */
+
+.language-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .language-button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: black; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  .language-button:hover {
+    background-color:gray; /* Darker green background color on hover */
+  }

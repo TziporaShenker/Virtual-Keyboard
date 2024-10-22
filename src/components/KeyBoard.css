@@ -1,0 +1,60 @@
+.keys {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.key:hover {
+  background-color: #e0e0e0;
+}
+
+.key button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Arrange keys like a real keyboard */
+.key:nth-child(10n + 1) {
+  grid-column: span 1;
+}
+
+.key:nth-child(10n + 2) {
+  grid-column: span 1;
+}
+.key:nth-last-child(-n + 4)
+{
+  grid-column: 1 / -1;
+  width: 90%;
+  justify-self: center;
+
+}
+
+/* ... Repeat for the rest of the keys ... */
+
+/* Last three buttons span full width */
+.key:nth-last-child(-n + 3) {
+  grid-column: span 3; /* Change to span 3 to occupy the entire row */
+  width: 140px; /* Set the width to 140px */
+  margin: auto; /* מקם את ה-grid באמצע הגריד */
+  display: flex;
+  justify-content: space-evenly; /* מפזר ביניהם יפה */
+  margin-left: 16%;
+}
+
+
